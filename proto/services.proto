@@ -7,7 +7,7 @@ service PaymentService{
   rpc ProcessPayment(PaymentRequest) returns (PaymentResponse);
 }
 
-// Service for cheching transaction history
+// Service for checking transaction history
 service TransactionService{
   rpc GetTransactionHistory(TransactionRequest) returns (stream TransactionResponse);
 }
